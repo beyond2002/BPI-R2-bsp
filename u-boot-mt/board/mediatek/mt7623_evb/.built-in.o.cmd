@@ -1,0 +1,1 @@
+cmd_board/mediatek/mt7623_evb/built-in.o :=  arm-linux-gnueabihf-ld.bfd    -r -o board/mediatek/mt7623_evb/built-in.o board/mediatek/mt7623_evb/mt7623_evb.o board/mediatek/mt7623_evb/mt_gpt.o board/mediatek/mt7623_evb/uart.o board/mediatek/mt7623_evb/mtk_wdt.o 

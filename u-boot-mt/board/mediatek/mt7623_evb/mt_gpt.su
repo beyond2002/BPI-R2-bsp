@@ -1,0 +1,17 @@
+mt_gpt.c:101:6:gpt6_init	0	static
+mt_gpt.c:115:5:gpt4_get_current_tick	0	static
+mt_gpt.c:144:6:gpt4_timeout_tick	8	static
+mt_gpt.c:175:5:gpt4_tick2time_us	0	static
+mt_gpt.c:180:5:gpt4_time2tick_us	0	static
+mt_gpt.c:195:5:gpt4_tick2time_ms	0	static
+mt_gpt.c:215:6:gpt_busy_wait_us	16	static
+mt_gpt.c:227:6:gpt_busy_wait_ms	16	static
+mt_gpt.c:242:6:reset_timer_masked	8	static
+mt_gpt.c:251:7:get_timer_masked	16	static
+mt_gpt.c:272:6:reset_timer	0	static
+mt_gpt.c:279:7:get_timer	8	static
+mt_gpt.c:297:6:set_timer	0	static
+mt_gpt.c:315:6:__udelay	0	static
+mt_gpt.c:324:20:get_ticks	8	static
+mt_gpt.c:333:7:get_tbclk	0	static
+mt_gpt.c:340:6:mtk_timer_init	0	static

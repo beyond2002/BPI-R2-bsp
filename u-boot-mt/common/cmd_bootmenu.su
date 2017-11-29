@@ -1,0 +1,7 @@
+cmd_bootmenu.c:60:13:bootmenu_print_entry	16	static
+cmd_bootmenu.c:234:13:bootmenu_destroy	16	static
+cmd_bootmenu.c:191:14:bootmenu_choice_entry	32	static
+cmd_bootmenu.c:362:13:bootmenu_show	64	static
+cmd_bootmenu.c:478:5:do_bootmenu	8	static
+cmd_bootmenu.c:442:6:menu_display_statusline	16	static
+cmd_bootmenu.c:471:5:menu_show	8	static

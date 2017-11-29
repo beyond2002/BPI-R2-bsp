@@ -1,0 +1,7 @@
+bootm.c:284:13:boot_jump_linux.isra.4	24	static
+bootm.c:46:6:arch_lmb_reserve	0	static
+bootm.c:215:13:setup_board_tags	0	static
+bootm.c:239:13:boot_prep_linux	24	static
+bootm.c:347:5:do_bootm_linux	24	static
+bootm.c:401:6:boot_prep_vxworks	0	static
+bootm.c:416:6:boot_jump_vxworks	0	static

@@ -1,0 +1,12 @@
+export ARCH=arm
+export BOARD=BPI-R2-720P
+export SOC=mt7623n
+export MACH=mt7623_evb
+export CROSS_COMPILE=arm-linux-gnueabihf-
+export UBOOT_CONFIG=mt7623_evb_config
+export KERNEL_CONFIG=mt7623n_evb_bpi_defconfig
+export LICHEE_PLATFORM="linux"
+export GPU_TYPE="mali450"
+export TOPDIR=/home/beyond2002/BPI-R2-bsp
+export TARGET_PLATFORM=mediatek
+export TARGET_PRODUCT=bpi-r2

@@ -1,0 +1,9 @@
+mtk_mmc.c:18:16:__mmc_block_read	0	static
+mtk_mmc.c:28:17:__mmc_block_write	0	static
+mtk_mmc.c:37:17:__mmc_block_erase	0	static
+mtk_mmc.c:59:19:mmc_get_dev	0	static
+mtk_mmc.c:68:5:mmc_legacy_init	560	static
+mtk_mmc.c:171:5:get_mmc_num	0	static
+mtk_mmc.c:176:13:find_mmc_device	8	static
+mtk_mmc.c:197:5:mmc_init	56	static
+mtk_mmc.c:254:5:mmc_getwp	0	static

@@ -1,0 +1,5 @@
+mt7623_evb.c:23:5:dram_init	16	static
+mt7623_evb.c:58:5:board_init	8	static
+mt7623_evb.c:72:5:board_late_init	8	static
+mt7623_evb.c:92:6:ft_board_setup	0	static
+mt7623_evb.c:104:5:board_eth_init	8	static

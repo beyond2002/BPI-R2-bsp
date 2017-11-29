@@ -1,0 +1,1 @@
+cmd_arch/arm/cpu/armv7/mt7623/built-in.o :=  arm-linux-gnueabihf-ld.bfd    -r -o arch/arm/cpu/armv7/mt7623/built-in.o arch/arm/cpu/armv7/mt7623/lowlevel_init.o arch/arm/cpu/armv7/mt7623/init.o arch/arm/cpu/armv7/mt7623/reset.o 

@@ -1,0 +1,7 @@
+mtk_cmd.c:258:5:do_backup_message	0	static
+mtk_cmd.c:264:5:do_reco_message	0	static
+mtk_cmd.c:29:5:do_read_image_blks	64	static
+mtk_cmd.c:135:5:do_read_mtk_image_blks	64	static
+mtk_cmd.c:219:5:do_serious_image_check	40	static
+mtk_cmd.c:199:5:do_image_check	40	static
+mtk_cmd.c:270:5:do_uboot_check	40	static
