@@ -30,7 +30,7 @@ install:
   - sudo apt-get install -qq python-mako gcc-arm-linux-gnueabihf gcc-aarch64-linux-gnu make u-boot-tools
 
 script:
-  - ./build.sh
+  - ./autobuild.sh
 
 addons:
   coverity_scan:
