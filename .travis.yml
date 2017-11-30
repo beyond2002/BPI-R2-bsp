@@ -22,6 +22,11 @@ dist: trusty
 # see https://github.com/travis-ci/travis-ci/issues/5326
 before_install:
   - export PATH=$(echo $PATH | sed 's/\/opt\/python[^:]*//g')
+# For fold
+  - export -f travis_nanoseconds
+  - export -f travis_fold
+  - export -f travis_time_start
+  - export -f travis_time_finish
 
 install:
   # Install additional packages
@@ -30,7 +35,9 @@ install:
   - sudo apt-get install -qq python-mako gcc-arm-linux-gnueabihf gcc-aarch64-linux-gnu make u-boot-tools
 
 script:
+  - echo 'test webgl-stub' && echo -en 'travis_fold:start:build\\r'
   - ./autobuild.sh
+  - echo -en 'travis_fold:end:build\\r'
 
 addons:
   coverity_scan:
@@ -47,10 +54,15 @@ before_deploy:
       - git config --local user.name "Dong Liu"
       - git config --local user.email "beyond2002@gmail.com"
       - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+      - ll ./SD/
 
 deploy:
       provider: releases
       api_key: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-      file: "SD/*.*"
+      file: 
+        - "./SD/4.4.70-BPI-R2-Kernel.tgz"
+        - "./SD/4.4.70-BPI-R2-Kernel-net.tgz"
+        - "./SD/BOOTLOADER-bpi-r2.tgz"
+        - "./SD/BPI-BOOT-bpi-r2.tgz"
       skip_cleanup: true
 
