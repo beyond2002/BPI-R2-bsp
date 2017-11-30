@@ -65,5 +65,6 @@ deploy:
         - "./SD/BPI-BOOT-bpi-r2.tgz"
         - "./SD/BPI-BOOT/bananapi/bpi-r2/linux/uImage"
         - "./SD/BPI-BOOT/bananapi/bpi-r2/linux/uEnv.txt"
+        - "./linux-mt/arch/arm/boot/dts/mt7623n-bpi-r2.dtb"
       skip_cleanup: true
 
