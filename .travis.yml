@@ -47,7 +47,8 @@ before_deploy:
       - git config --local user.name "Dong Liu"
       - git config --local user.email "beyond2002@gmail.com"
       - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
-    deploy:
+
+deploy:
       provider: releases
       api_key: $GITHUB_TOKEN # Set in travis-ci.org dashboard
       file: "SD/*.*"
