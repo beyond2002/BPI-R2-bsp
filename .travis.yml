@@ -54,7 +54,6 @@ before_deploy:
       - git config --local user.name "Dong Liu"
       - git config --local user.email "beyond2002@gmail.com"
       - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
-      - ll ./SD/
 
 deploy:
       provider: releases
@@ -64,5 +63,7 @@ deploy:
         - "./SD/4.4.70-BPI-R2-Kernel-net.tgz"
         - "./SD/BOOTLOADER-bpi-r2.tgz"
         - "./SD/BPI-BOOT-bpi-r2.tgz"
+        - "./SD/BPI-BOOT/bananapi/bpi-r2/linux/uImage"
+        - "./SD/BPI-BOOT/bananapi/bpi-r2/linux/uEnv.txt"
       skip_cleanup: true
 
